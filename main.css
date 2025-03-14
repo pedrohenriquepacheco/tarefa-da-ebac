@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+body {
+    background-color: rgb(37, 31, 31);
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+header {
+    background-color: rgb(255, 0, 255);
+    padding: 16px 0;
+    color: #fff;
+}
+
+nav {
+    background-color: rgb(234, 48, 48);
+    padding: 16px 0;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container-flex {
+    display: flex;
+}
+
+#sobre-a-loja img {
+    max-width: 400px;
+    margin-right: 24px;
+}
+
+section {
+    padding:24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.lista-veiculos li {
+    list-style: none;
+    max-width: 400px;
+}
+
+.lista-veiculos li img {
+    max-width: 100%;
+}
+
+.lista-veiculos li h3 {
+    margin: 16px 0;
+}
+
+.item-central {
+    margin: 0 5%;
+}
+
+.lista-veiculos li button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.lista-veiculos li strong {
+    margin: 16px 0;
+    display: block;
+}
+
+@media screen and (max-width: 767px) {
+    .container-flex {
+        flex-direction: column;
+    }
+    s#sobre-a-loja img {
+        margin: 0 0 24px 0;
+    }
+    .item-central {
+        margin: 0;
+    }
+    .lista-veiculos li {
+        margin-bottom: 24px;
+    }
+    header {
+        padding: 12px 0;
+        margin: 12px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .container {
+        max-width: 1920px;
+    }
+}
